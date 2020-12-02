@@ -41,3 +41,6 @@
 <br>
 <h2># Ternary Operator</h2>
 <p>The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark ( ? ), then an expression to execute if the condition is truthy followed by a colon ( : ), and finally the expression to execute if the condition is falsy.</p>
+<br>
+<h2># Var and Let</h2>
+<p>Main differences between VAR and LET and uses in console.log to view possible errors in the global, local and block scope</p>  
