@@ -11,7 +11,8 @@
   <a href="#-prime-numbers">Prime Numbers</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-remove-array">Remove Array</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-ternary-operator">Ternary Operator</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-var-and-let">VAR and LET</a>
+  <a href="#-var-and-let">VAR and LET</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-params">Params</a>
 </p>
 <hr>
 <p><b>is a full-fledged dynamic programming language that can add interactivity to a website. Variables are containers that store values. Functions are a way of packaging functionality that you wish to reuse.<b></p>
@@ -45,3 +46,5 @@
 <br>
 <h2># Var and Let</h2>
 <p>Main differences between VAR and LET and uses in console.log to view possible errors in the global, local and block scope</p>  
+<br># Params</h2>
+<p>Arguments are Passed by Value. The parameters, in a function call, are the function's arguments. JavaScript arguments are passed by value.</p>
