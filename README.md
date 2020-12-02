@@ -12,7 +12,8 @@
   <a href="#-remove-array">Remove Array</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-ternary-operator">Ternary Operator</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-var-and-let">VAR and LET</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-params">Params</a>
+  <a href="#-params">Params</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-json">JSON</a>
 </p>
 <hr>
 <p><b>is a full-fledged dynamic programming language that can add interactivity to a website. Variables are containers that store values. Functions are a way of packaging functionality that you wish to reuse.<b></p>
@@ -46,5 +47,9 @@
 <br>
 <h2># Var and Let</h2>
 <p>Main differences between VAR and LET and uses in console.log to view possible errors in the global, local and block scope</p>  
-<br># Params</h2>
+<br>
+<h2># Params</h2>
 <p>Arguments are Passed by Value. The parameters, in a function call, are the function's arguments. JavaScript arguments are passed by value.</p>
+<br>
+<h2># JOSN</h2>
+<p>JSON stands for JavaScript Object Notation. JSON is a lightweight format for storing and transporting data. JSON is often used when data is sent from a server to a web page.</p>
