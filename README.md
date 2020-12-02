@@ -15,7 +15,10 @@
   <a href="#-params">Params</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-json">JSON</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-spread-operator">Spred Operator</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-destructuring-assigment">Destruturing Assigment</a>
+  <a href="#-destructuring-assigment">Destruturing Assigment</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-arrow-function">Arrow Function</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-find">Find</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-template-literals">Template Literals</a>
 </p>
 <hr>
 <p><b>is a full-fledged dynamic programming language that can add interactivity to a website. Variables are containers that store values. Functions are a way of packaging functionality that you wish to reuse.<b></p>
@@ -61,3 +64,12 @@
 <br>
 <h2># Destructuring Assignment</h2>
 <p>The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.</p>
+<br>
+<h2># Arrow Function</h2>
+<p>An arrow function expression is a compact alternative to a traditional function expression, but is limited and can't be used in all situations.</p>
+<br>
+<h2># Find</h2>
+<p>The find() method executes the function once for each element present in the array: If it finds an array element where the function returns a true value, find() returns the value of that array element (and does not check the remaining values) Otherwise it returns undefined.</p>
+<br>
+<h2># Template Literals</h2>
+<p>Template Literals are a new ES2015 / ES6 feature that allows you to work with strings in a novel way compared to ES5 and below. The syntax at a first glance is very simple, just use backticks instead of single or double quotes: const a_string = `something`</p>
