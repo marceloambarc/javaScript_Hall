@@ -75,5 +75,5 @@
 <h2># Template Literals</h2>
 <p>Template Literals are a new ES2015 / ES6 feature that allows you to work with strings in a novel way compared to ES5 and below. The syntax at a first glance is very simple, just use backticks instead of single or double quotes: const a_string = `something`</p>
 <br>
-<h2>Async Functions</h2>
+<h2># Async Functions</h2>
 <p>An async function is a function declared with the async keyword. Async functions are instances of the AsyncFunction constructor, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.</p>
