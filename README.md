@@ -19,7 +19,7 @@
   <a href="#-arrow-function">Arrow Function</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-find">Find</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-template-literals">Template Literals</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-async-functios">Async</a>
+  <a href="#-async-functions">Async</a>
 </p>
 <hr>
 <p><b>is a full-fledged dynamic programming language that can add interactivity to a website. Variables are containers that store values. Functions are a way of packaging functionality that you wish to reuse.<b></p>
