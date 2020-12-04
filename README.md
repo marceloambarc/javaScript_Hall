@@ -19,7 +19,8 @@
   <a href="#-arrow-function">Arrow Function</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-find">Find</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-template-literals">Template Literals</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-async-functions">Async</a>
+  <a href="#-async-functions">Async</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-classes">Classes</a>
 </p>
 <hr>
 <p><b>is a full-fledged dynamic programming language that can add interactivity to a website. Variables are containers that store values. Functions are a way of packaging functionality that you wish to reuse.<b></p>
@@ -77,3 +78,6 @@
 <br>
 <h2># Async Functions</h2>
 <p>An async function is a function declared with the async keyword. Async functions are instances of the AsyncFunction constructor, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.</p>
+<br>
+<h2># Classes</h2>
+<p>Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes; In the folder some exemples of contructions.</p>
