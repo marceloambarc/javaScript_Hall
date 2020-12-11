@@ -4,6 +4,7 @@ var Table = require("./Controller/Table");
 var Writer = require("./Controller/Writer");
 
 var HtmlParser = require("./HtmlParser");
+var PDFWriter = require("./PDFWriter");
 
 var reader = new Reader();
 var writer = new Writer();
@@ -17,6 +18,7 @@ async function main(){
     var html = await HtmlParser.Parse(users);
     
     writer.Write(Date.now() + ".html",html);
+    PDFWriter.WritePDF(Date.now() + ".PDF",html);
 }
 
 main();
