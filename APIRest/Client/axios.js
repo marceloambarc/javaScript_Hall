@@ -1,3 +1,28 @@
+var axiosConfig = {
+    headers: {
+        Authorization: "Bearer " + localStorage.getItem("token")
+    }
+}
+
+function login(){
+    var emailField = document.getElementById("email");
+    var passwordField = document.getElementById("password");
+
+    var email = emailField.value;
+    var password = passwordField.value;
+
+    axios.post("http://localhost:8080/auth",{
+        email,
+        password
+    }).then(res => {
+        var token = res.data.token;
+        localStorage.setItem("token", token);
+        axiosConfig.headers.Authorization = "Bearer " + localStorage.getItem("token");
+    }).catch(err => {
+        alert("invalid Login");
+    });
+}
+
 function createGame(){
     var titleInput = document.getElementById("title");
     var yearInput = document.getElementById("year");
@@ -8,7 +33,7 @@ function createGame(){
         year: yearInput.value,
         price: priceInput.value
     }
-    axios.post("http://localhost:8080/game",game).then(response => {
+    axios.post("http://localhost:8080/game",game,axiosConfig).then(response => {
         if(response.status == 200){
             alert("Registered Game");
         }
@@ -19,7 +44,7 @@ function createGame(){
 
 function deleteGame(listItem){
     var id = listItem.getAttribute("data-id");
-    axios.delete("http://localhost:8080/game/"+id).then(response => {
+    axios.delete("http://localhost:8080/game/"+id,axiosConfig).then(response => {
         alert("Deleted Game");
     }).catch(err => {
         console.log(err);
@@ -52,7 +77,7 @@ function updateGame(){
 
     var id = idInput.value;
 
-    axios.put("http://localhost:8080/game/"+id,game).then(response => {
+    axios.put("http://localhost:8080/game/"+id,game,axiosConfig).then(response => {
         if(response.status == 200){
             alert("Edited Game!");
         }
@@ -61,7 +86,7 @@ function updateGame(){
     });
 }
 
-axios.get("http://localhost:8080/games").then(response =>{
+axios.get("http://localhost:8080/games",axiosConfig).then(response =>{
     var games = response.data;
     var list = document.getElementById("games");
 
