@@ -20,7 +20,10 @@
   <a href="#-find">Find</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-template-literals">Template Literals</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-async-functions">Async</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-classes">Classes</a>
+  <a href="#-classes">Classes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-file-system">File System</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-api">API</a>
+  
 </p>
 <hr>
 <p><b>is a full-fledged dynamic programming language that can add interactivity to a website. Variables are containers that store values. Functions are a way of packaging functionality that you wish to reuse.<b></p>
@@ -81,3 +84,10 @@
 <br>
 <h2># Classes</h2>
 <p>Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes; In the folder some exemples of contructions.</p>
+<br>
+<h2># File System</h2>
+<p>Node.js as a File Server The Node.js file system module allows you to work with the file system on your computer. To include the File System module, use the require() method: var fs = require('fs');</p>
+<br>
+<h2># API Rest</h2>
+<p>Representational state transfer is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style</p>  
+  
