@@ -60,11 +60,29 @@ app.get("/game/:id",auth,(req, res) => {
     }else{
         var id = parseInt(req.params.id);
 
+        var HATEOAS = [
+            {
+                href: "http://localhost:8080/game"+id,
+                method: "DELETE",
+                rel: "delete_game"
+            },
+            {
+                href: "http://localhost:8080/game/"+id,
+                method: "PUT",
+                rel: "edit_game"
+            },
+            {
+                href: "http://localhost:8080/games",
+                method: "GET",
+                rel: "get_all_games"
+            }
+        ]
+
         var game = DB.games.find(g => g.id == id);
 
         if(game != undefined){
             res.statusCode = 200;
-            res.json(game);
+            res.json({game,_links:HATEOAS});
         }else{
             res.sendStatus(404);
         }
