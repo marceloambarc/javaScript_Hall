@@ -23,7 +23,8 @@
   <a href="#-classes">Classes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-file-system">File System</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-api">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-knex">Knex Database</a>
+  <a href="#-knex">Knex Database</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="socket.io">Socket.Io</a>
   
 </p>
 <hr>
@@ -93,4 +94,7 @@
 <p>Representational state transfer is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style</p>  
 <h2># KNEX</h2>
 <p>Knex can be used as an SQL query builder in both Node.JS and the browser, limited to WebSQL's constraints (like the inability to drop tables or read schemas).</p>
+<h2># Socket.Io</h2>
+<p>Socket.IO enables real-time, bidirectional and event-based communication.
+It works on every platform, browser or device, focusing equally on reliability and speed.</p>
   
