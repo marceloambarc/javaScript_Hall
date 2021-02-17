@@ -1,0 +1,20 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "mongo db learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "mambarc",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.11.15"
+  }
+}
