@@ -4,12 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-  <input type="text" name="" id="palavra" oninput="enviar()">
-  <button>Enviar</button>
-  <hr>
-  <p id="resultado"></p>
+  <style>
+    #chat{
+      max-height: 500px;
+      min-height: 500px;
+      background-color: aliceblue;
+      overflow-y: scroll;
+    }
+  </style>
+
+  <h1>Chat Mambarc</h1>
+  <div id="chat">
+
+  </div><br>
+  <input type="text" id="msg" class="form-control" placeholder="mensagem...">
+  <input type="text" id="username" placeholder="Seu nome de usuário" class="form-control">
+  <button onclick="enviar()" class="btn btn-primary btn-lg btn-block">Enviar</button>
+
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
 <script>
@@ -18,17 +32,23 @@
     consone.log("Deconectado");
   });
 
-  socket.emit("boasvindas",{nome: "Marcelo Barcelos"});
-
-  socket.on("resultado" , (data) => {
-    console.log(data);
-    var p = document.getElementById("resultado");
-    p.innerHTML = data;
+  socket.on("showMsg", (data) => {
+    var chat = document.getElementById("chat");
+    var p = document.createElement("p");
+    p.innerHTML = data.username + ": " + data.msg;
+    chat.append(p);
   });
 
   function enviar(){
-    var input = document.getElementById("palavra");
-    socket.emit("palavra", input.value);
+    var msgField = document.getElementById("msg");
+    var usernameField = document.getElementById("username");
+
+    var msg = msgField.value;
+    var username = usernameField.value;
+
+    socket.emit("msg", {msg: msg, username: username});
+
   }
+
 </script>
 </html>

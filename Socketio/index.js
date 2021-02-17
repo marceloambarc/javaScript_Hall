@@ -14,16 +14,11 @@ io.on("connection",(socket) => {
   socket.on("disconnect", () => {
     console.log("X Desconectou: " + socket.id);
   })
-
-  socket.on("boasvindas", (data) => {
-    console.log("Executando evento de Boas-Vindas");
-    console.log(data);
+  
+  socket.on("msg", (data) => {
+    io.emit("showMsg", data);
   })
 
-  socket.on("palavra", (data) => {
-    console.log(data);
-    socket.emit("resultado", data + " - MAMBARC!");
-  });
 });
 
 http.listen(4000,() => {
