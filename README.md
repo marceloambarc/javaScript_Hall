@@ -24,7 +24,8 @@
   <a href="#-file-system">File System</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-api">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-knex">Knex Database</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="socket.io">Socket.Io</a>
+  <a href="#socket.io">Socket.Io</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wbm-modified">WBM-Modified</a>
   
 </p>
 <hr>
@@ -97,4 +98,6 @@
 <h2># Socket.Io</h2>
 <p>Socket.IO enables real-time, bidirectional and event-based communication.
 It works on every platform, browser or device, focusing equally on reliability and speed.</p>
+<h2># wbm-modified</h2>
+<p>wbm-modified is an unofficial API using wbm to send bulk messages in whatsapp.</p>
   
