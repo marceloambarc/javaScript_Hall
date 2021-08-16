@@ -25,7 +25,7 @@
   <a href="#-api">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-knex">Knex Database</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#socket.io">Socket.Io</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#wbm-modified">WBM-Modified</a>
+  <a href="#wbm-modified">wbm-modified</a>
   
 </p>
 <hr>
@@ -64,7 +64,7 @@
 <h2># Params</h2>
 <p>Arguments are Passed by Value. The parameters, in a function call, are the function's arguments. JavaScript arguments are passed by value.</p>
 <br>
-<h2># JOSN</h2>
+<h2># JSON</h2>
 <p>JSON stands for JavaScript Object Notation. JSON is a lightweight format for storing and transporting data. JSON is often used when data is sent from a server to a web page.</p>
 <br>
 <h2># Spread Operator</h2>
